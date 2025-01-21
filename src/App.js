@@ -40,11 +40,7 @@ function App() {
             <p class="text-gray-400 text-base   ">
               Programmer and Photographer
             </p>
-            <a
-              class="text-gray-500 text-base hover:underline"
-              href="https://youtube.com"
-              target="_blank"
-            >
+            <a class="text-gray-500 text-base hover:underline" target="_blank">
               photographs
             </a>
           </div>
