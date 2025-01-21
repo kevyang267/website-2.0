@@ -233,7 +233,7 @@ function App() {
           </div>
         </div>
         {/* Section for links*/}
-        <div class=" flex flex-col mb-8">
+        <div class=" flex flex-col mb-10">
           <p class="text-white text-sm mb-3">Links</p>
 
           {/* Links */}
@@ -261,7 +261,7 @@ function App() {
             </div>
 
             {/* Individual links */}
-            <div class="flex flex-row items-center justify-between">
+            <div class="flex flex-row items-center justify-between mb-12">
               <div>
                 <p class="text-gray-500">Email</p>
               </div>
