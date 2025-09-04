@@ -1,4 +1,5 @@
 import "./App.css";
+import resume from "./resume/kevin_yang_resume.pdf";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           </div>
           {/* Connect button on the right side */}
           <div class=" ">
-            <a href="./resume/Resume.pdf" target="_blank">
+            <a href={resume} target="_blank">
               {" "}
               <button class=" rounded-lg w-20 h-9 text-white font-semibold translation ease-in-out delay-150 bg-gray-600 hover:bg-gray-500 duration-300">
                 Resume
@@ -26,11 +27,11 @@ function App() {
       {/* Body div */}
       <div class="flex flex-col  mt-20 mx-4 w-[472px]">
         {/* Container for information */}
-        <div class="flex flex-row  items-center mb-5">
+        <div class="flex flex-row  items-center mb-6">
           {/* Image */}
-          <div class="mr-2 h-28 w-28">
+          <div class="mr-9 h-28 w-28">
             <img
-              src={require("./images/pixel.png")}
+              src={require("./images/pixel_face.png")}
               class="rounded-full object-cover max-h-full max-w-full"
             ></img>
           </div>
@@ -40,7 +41,11 @@ function App() {
             <p class="text-gray-400 text-base   ">
               Programmer and Photographer
             </p>
-            <a class="text-gray-500 text-base hover:underline" target="_blank">
+            <a
+              href="https://kevyang267.github.io/KevinYangPhotography/"
+              class="text-gray-500 text-base hover:underline"
+              target="_blank"
+            >
               photographs
             </a>
           </div>
@@ -52,8 +57,7 @@ function App() {
           <p class="text-gray-400 text-sm break-words">
             Hey there! I'm Kevin. I love building projects and learning new
             technologies. I particularly like unique UX/UI designs. Currently, I
-            am polishing up on creating cool webprojects. Click on the
-            photographs link to see some of my photographs!
+            am polishing up on creating cool web projects through web services!
           </p>
         </div>
 
@@ -77,16 +81,17 @@ function App() {
                 href="https://www.computer-talk.com/"
                 target="_blank"
               >
-                Application Automation Engineer - ComputerTalk{" "}
+                Application Developer Engineer - ComputerTalk{" "}
                 <span class="inline-block">&#8599;</span>
               </a>
               <p class="text-gray-400 text-sm mt-1   ">
-                Lead automation implementation for new features including login
-                and session caching, Excel sheet manipulation, image
-                compression, and sFTP testing.
+                Took charge of a secure web service that supports financial
+                transactions with popular providers such as TD Bambora, Exact,
+                and Trust Commerce. Developed secure web services to access
+                institional APIs.
               </p>
               <p class="text-gray-500 text-sm mt-1   ">
-                TypeScript &#x2022; PlayWright &#x2022; Python &#x2022; SQL
+                C# &#x2022; .NET &#x2022; Python &#x2022; SQL
               </p>
             </div>
           </div>
